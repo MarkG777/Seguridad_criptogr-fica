@@ -1,0 +1,38 @@
+{
+  "name": "testamentos-digitales-backend",
+  "version": "1.0.0",
+  "description": "Backend para Gestor de Testamentos Digitales con 4 capas de seguridad criptográfica",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "init-db": "node src/database/init.js"
+  },
+  "keywords": [
+    "testamentos",
+    "cifrado",
+    "bcrypt",
+    "AES-256",
+    "RSA",
+    "firma-digital",
+    "hibrido",
+    "seguridad"
+  ],
+  "author": "Marco Antonio Gómez Olvera",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.6",
+    "winston": "^3.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
