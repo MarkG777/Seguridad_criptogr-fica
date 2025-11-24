@@ -317,6 +317,6 @@ Contiene:
 
 ---
 
-**Marco Antonio Gómez Olvera**  
+**Marco Antonio Gómez Olvera y su equipo**  
 **Seguridad Informática - UTEQ**  
 **Noviembre 2025**

@@ -25,3 +25,6 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+#Carpeta de pdf
+pdf_testament
